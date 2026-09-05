@@ -14,14 +14,14 @@ html, body {
 }
 
 @font-face {
-  font-family: neon;
-  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+  font-family: "Space Mono", monospace;
+  src: url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 }
 
 .Tetris {
-  font-family: neon;
+  font-family: "Space Mono", monospace;
   color: #ff00cc;
-  font-size: calc(6rem + 6vw + 6vh); /* More balanced flexibility */
+  font-size: calc(5rem + 5vw + 5vh); /* More balanced flexibility */
   line-height: 1.1; /* Adjusted line height for better spacing */
   text-shadow: 0 0 3vw #ff00cc; /* Initial shadow */
   margin-bottom: 0.6em; /* Adjust space between title and button */
@@ -54,7 +54,7 @@ button {
   transition: background-color 0.3s, transform 0.3s, text-shadow 0.3s; /* Smooth transition for non-animated properties */
   position: relative; /* Required for top positioning */
   top: 0; /* Remove any additional spacing from the top */
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Font style for text inside button */
+  font-family: "Space Mono", monospace; 
   box-shadow: 0 0 3vw rgb(0, 255, 17); /* Initial glowing button effect */
   animation: twinkle-box 2s infinite; /* Apply twinkle animation to the button's box-shadow */
 }
